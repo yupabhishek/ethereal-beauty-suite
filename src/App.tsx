@@ -4,6 +4,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
+import ScrollToTop from "./components/ScrollToTop";
+import AnimatedRoutes from "./components/AnimatedRoutes";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Services from "./pages/Services";
@@ -32,7 +34,11 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
+        {/* component takes care of scroll restoration and resetting to top */}
+        <ScrollToTop />
+
+        {/* animated container wraps the route tree so each page fades */}
+        <AnimatedRoutes>
           <Route element={<Layout />}>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
@@ -54,7 +60,7 @@ const App = () => (
             <Route path="/terms" element={<Terms />} />
           </Route>
           <Route path="*" element={<NotFound />} />
-        </Routes>
+        </AnimatedRoutes>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
