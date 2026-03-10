@@ -6,18 +6,18 @@ import bridalImage from "@/assets/bridal-makeup.jpg";
 const packages = [
   {
     name: "Pre-Bridal Glow",
-    price: "$299",
+    price: "₹25,000",
     features: ["5 facial sessions", "Hair spa (3 sessions)", "Full body polishing", "Waxing package", "Mani-pedi (2 sessions)"],
   },
   {
     name: "Bridal Day Package",
-    price: "$499",
+    price: "₹40,000",
     features: ["HD Bridal makeup", "Bridal hairstyling", "Draping assistance", "Touch-up kit", "False lashes"],
     featured: true,
   },
   {
     name: "Complete Bridal Plan",
-    price: "$799",
+    price: "₹65,000",
     features: ["Everything in Pre-Bridal", "Everything in Bridal Day", "Engagement makeup", "Reception makeup", "2 makeup trials"],
   },
 ];

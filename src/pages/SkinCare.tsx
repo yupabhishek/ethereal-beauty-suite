@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 import image from "@/assets/skincare-service.jpg";
 
 const items = [
-  { name: "Classic Facial", price: "$55 – $90", desc: "Deep cleansing and hydration for glowing skin" },
-  { name: "Gold / Diamond Facial", price: "$85 – $150", desc: "Premium facial with luxury ingredients" },
-  { name: "Clean-Up", price: "$35 – $50", desc: "Quick refresh for everyday radiance" },
-  { name: "Anti-Aging Treatment", price: "$120 – $250", desc: "Advanced treatments to reduce fine lines and wrinkles" },
-  { name: "Acne & Pigmentation Care", price: "$75 – $180", desc: "Targeted solutions for clear, even-toned skin" },
+  { name: "Classic Facial", price: "₹4,000 – ₹7,000", desc: "Deep cleansing and hydration for glowing skin" },
+  { name: "Gold / Diamond Facial", price: "₹6,500 – ₹12,000", desc: "Premium facial with luxury ingredients" },
+  { name: "Clean-Up", price: "₹2,500 – ₹4,000", desc: "Quick refresh for everyday radiance" },
+  { name: "Anti-Aging Treatment", price: "₹9,500 – ₹20,000", desc: "Advanced treatments to reduce fine lines and wrinkles" },
+  { name: "Acne & Pigmentation Care", price: "₹6,000 – ₹15,000", desc: "Targeted solutions for clear, even-toned skin" },
 ];
 
 const SkinCare = () => (

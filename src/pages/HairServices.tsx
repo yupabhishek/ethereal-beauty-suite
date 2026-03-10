@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 import image from "@/assets/hair-service.jpg";
 
 const items = [
-  { name: "Haircut & Styling", price: "$45 – $85", desc: "Precision cuts and styling for all hair types" },
-  { name: "Hair Spa Treatment", price: "$65 – $120", desc: "Deep conditioning and rejuvenation therapy" },
-  { name: "Hair Coloring", price: "$80 – $200", desc: "Full color, highlights, balayage, and ombré" },
-  { name: "Keratin & Smoothening", price: "$150 – $350", desc: "Long-lasting smoothening and frizz control" },
-  { name: "Bridal & Party Hairstyles", price: "$100 – $250", desc: "Elegant updos and styled looks for special occasions" },
+  { name: "Haircut & Styling", price: "₹3,500 – ₹6,500", desc: "Precision cuts and styling for all hair types" },
+  { name: "Hair Spa Treatment", price: "₹5,000 – ₹9,500", desc: "Deep conditioning and rejuvenation therapy" },
+  { name: "Hair Coloring", price: "₹6,500 – ₹15,000", desc: "Full color, highlights, balayage, and ombré" },
+  { name: "Keratin & Smoothening", price: "₹12,000 – ₹25,000", desc: "Long-lasting smoothening and frizz control" },
+  { name: "Bridal & Party Hairstyles", price: "₹8,000 – ₹20,000", desc: "Elegant updos and styled looks for special occasions" },
 ];
 
 const HairServices = () => (

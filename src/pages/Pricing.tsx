@@ -7,45 +7,45 @@ const categories = [
   {
     title: "Hair Services",
     items: [
-      { name: "Haircut & Styling", price: "$45 – $85" },
-      { name: "Hair Spa", price: "$65 – $120" },
-      { name: "Hair Coloring", price: "$80 – $200" },
-      { name: "Keratin Treatment", price: "$150 – $350" },
+      { name: "Haircut & Styling", price: "₹3,500 – ₹6,500" },
+      { name: "Hair Spa", price: "₹5,000 – ₹9,500" },
+      { name: "Hair Coloring", price: "₹6,500 – ₹15,000" },
+      { name: "Keratin Treatment", price: "₹12,000 – ₹25,000" },
     ],
   },
   {
     title: "Skin Care",
     items: [
-      { name: "Classic Facial", price: "$55 – $90" },
-      { name: "Gold Facial", price: "$85 – $150" },
-      { name: "Clean-Up", price: "$35 – $50" },
-      { name: "Anti-Aging Treatment", price: "$120 – $250" },
+      { name: "Classic Facial", price: "₹4,000 – ₹7,000" },
+      { name: "Gold Facial", price: "₹6,500 – ₹12,000" },
+      { name: "Clean-Up", price: "₹2,500 – ₹4,000" },
+      { name: "Anti-Aging Treatment", price: "₹9,500 – ₹20,000" },
     ],
   },
   {
     title: "Makeup",
     items: [
-      { name: "Party Makeup", price: "$75 – $150" },
-      { name: "Bridal Makeup", price: "$200 – $500" },
-      { name: "Engagement Makeup", price: "$150 – $350" },
-      { name: "Makeup Trial", price: "$50 – $100" },
+      { name: "Party Makeup", price: "₹6,000 – ₹12,000" },
+      { name: "Bridal Makeup", price: "₹15,000 – ₹40,000" },
+      { name: "Engagement Makeup", price: "₹12,000 – ₹25,000" },
+      { name: "Makeup Trial", price: "₹4,000 – ₹8,000" },
     ],
   },
   {
     title: "Nail Services",
     items: [
-      { name: "Manicure", price: "$25 – $40" },
-      { name: "Pedicure", price: "$30 – $50" },
-      { name: "Gel Nails", price: "$45 – $75" },
-      { name: "Nail Art", price: "$10 – $40+" },
+      { name: "Manicure", price: "₹2,000 – ₹3,000" },
+      { name: "Pedicure", price: "₹2,500 – ₹4,000" },
+      { name: "Gel Nails", price: "₹3,500 – ₹6,000" },
+      { name: "Nail Art", price: "₹800 – ₹3,000+" },
     ],
   },
 ];
 
 const combos = [
-  { name: "Glow Package", price: "$99", features: ["Classic Facial", "Manicure", "Pedicure", "Hair Wash & Blow-Dry"] },
-  { name: "Party Ready", price: "$149", features: ["Party Makeup", "Hair Styling", "Manicure", "Quick Facial"], featured: true },
-  { name: "Pamper Day", price: "$199", features: ["Gold Facial", "Hair Spa", "Gel Manicure", "Pedicure", "Head Massage"] },
+  { name: "Glow Package", price: "₹8,000", features: ["Classic Facial", "Manicure", "Pedicure", "Hair Wash & Blow-Dry"] },
+  { name: "Party Ready", price: "₹12,000", features: ["Party Makeup", "Hair Styling", "Manicure", "Quick Facial"], featured: true },
+  { name: "Pamper Day", price: "₹16,000", features: ["Gold Facial", "Hair Spa", "Gel Manicure", "Pedicure", "Head Massage"] },
 ];
 
 const Pricing = () => (

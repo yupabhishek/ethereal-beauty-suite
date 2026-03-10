@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 import image from "@/assets/makeup-service.jpg";
 
 const items = [
-  { name: "Bridal Makeup", price: "$200 – $500", desc: "Flawless bridal look for your special day" },
-  { name: "Party Makeup", price: "$75 – $150", desc: "Glamorous looks for any celebration" },
-  { name: "Engagement & Reception", price: "$150 – $350", desc: "Picture-perfect makeup for pre-wedding events" },
-  { name: "Makeup Trial", price: "$50 – $100", desc: "Preview your look before the big day" },
+  { name: "Bridal Makeup", price: "₹15,000 – ₹40,000", desc: "Flawless bridal look for your special day" },
+  { name: "Party Makeup", price: "₹6,000 – ₹12,000", desc: "Glamorous looks for any celebration" },
+  { name: "Engagement & Reception", price: "₹12,000 – ₹25,000", desc: "Picture-perfect makeup for pre-wedding events" },
+  { name: "Makeup Trial", price: "₹4,000 – ₹8,000", desc: "Preview your look before the big day" },
 ];
 
 const MakeupServices = () => (

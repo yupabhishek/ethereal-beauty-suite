@@ -6,26 +6,26 @@ import { Check, Gift, Crown, Star } from "lucide-react";
 const offers = [
   { title: "Summer Glow Special", desc: "Get 20% off on all facial treatments this season", code: "GLOW20", expiry: "March 31, 2026" },
   { title: "First Visit Offer", desc: "15% off on any service for first-time clients", code: "WELCOME15", expiry: "Ongoing" },
-  { title: "Refer a Friend", desc: "Both you and your friend get $25 off your next visit", code: "FRIEND25", expiry: "Ongoing" },
+  { title: "Refer a Friend", desc: "Both you and your friend get ₹2,000 off your next visit", code: "FRIEND2000", expiry: "Ongoing" },
 ];
 
 const memberships = [
   {
     name: "Silver",
-    price: "$49/month",
+    price: "₹4,000/month",
     icon: Star,
     features: ["10% off all services", "Priority booking", "Birthday special discount", "Monthly newsletter"],
   },
   {
     name: "Gold",
-    price: "$89/month",
+    price: "₹7,000/month",
     icon: Crown,
     features: ["20% off all services", "Free monthly facial", "Priority booking", "Birthday free service", "Exclusive event access"],
     featured: true,
   },
   {
     name: "Platinum",
-    price: "$149/month",
+    price: "₹12,000/month",
     icon: Gift,
     features: ["30% off all services", "Free monthly facial + hair spa", "VIP priority booking", "Birthday month special", "2 free guest passes", "Personal beauty consultant"],
   },

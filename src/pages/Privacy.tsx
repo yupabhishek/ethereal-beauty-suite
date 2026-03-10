@@ -26,7 +26,7 @@ const Privacy = () => (
         </div>
         <div>
           <h2 className="font-display text-xl font-medium text-foreground mb-3">Contact Us</h2>
-          <p>For privacy-related questions, contact us at hello@glowandgrace.com or call +1 234 567 890.</p>
+          <p>For privacy-related questions, contact us at hello@glowandgrace.in or call +91 98765 43210.</p>
         </div>
       </div>
     </section>

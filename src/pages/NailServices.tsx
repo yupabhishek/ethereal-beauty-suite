@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 import image from "@/assets/nail-service.jpg";
 
 const items = [
-  { name: "Classic Manicure", price: "$25 – $40", desc: "Nail shaping, cuticle care, and polish" },
-  { name: "Classic Pedicure", price: "$30 – $50", desc: "Foot soak, scrub, and nail care" },
-  { name: "Gel Nails", price: "$45 – $75", desc: "Long-lasting gel polish with flawless finish" },
-  { name: "Acrylic Extensions", price: "$60 – $120", desc: "Custom-shaped acrylic nail extensions" },
-  { name: "Nail Art", price: "$10 – $40+", desc: "Creative designs from minimal to intricate" },
+  { name: "Classic Manicure", price: "₹2,000 – ₹3,000", desc: "Nail shaping, cuticle care, and polish" },
+  { name: "Classic Pedicure", price: "₹2,500 – ₹4,000", desc: "Foot soak, scrub, and nail care" },
+  { name: "Gel Nails", price: "₹3,500 – ₹6,000", desc: "Long-lasting gel polish with flawless finish" },
+  { name: "Acrylic Extensions", price: "₹5,000 – ₹10,000", desc: "Custom-shaped acrylic nail extensions" },
+  { name: "Nail Art", price: "₹800 – ₹3,000+", desc: "Creative designs from minimal to intricate" },
 ];
 
 const NailServices = () => (

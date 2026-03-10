@@ -68,19 +68,19 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary shrink-0" />
-                123 Beauty Lane, Suite 100, New York, NY 10001
+                123 MG Road, Bandra West, Mumbai, Maharashtra 400050
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                +1 234 567 890
+                +91 98765 43210
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
-                hello@glowandgrace.com
+                hello@glowandgrace.in
               </li>
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <Clock className="w-4 h-4 mt-0.5 text-primary shrink-0" />
-                Mon–Sat: 9AM – 8PM<br />Sunday: 10AM – 6PM
+                Mon–Sat: 10AM – 8PM<br />Sunday: 11AM – 7PM
               </li>
             </ul>
           </div>

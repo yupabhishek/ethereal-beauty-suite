@@ -73,7 +73,7 @@ const BookAppointment = () => {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="phone">Phone Number *</Label>
-                <Input id="phone" name="phone" type="tel" placeholder="+1 234 567 890" required maxLength={20} />
+                <Input id="phone" name="phone" type="tel" placeholder="+91 98765 43210" required maxLength={20} />
               </div>
             </div>
 

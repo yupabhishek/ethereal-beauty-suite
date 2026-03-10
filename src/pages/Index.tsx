@@ -11,11 +11,11 @@ import nailImage from "@/assets/nail-service.jpg";
 import bridalImage from "@/assets/bridal-makeup.jpg";
 
 const services = [
-  { title: "Hair Services", description: "From cuts & styling to coloring and keratin treatments", image: hairImage, to: "/services/hair", price: "$45" },
-  { title: "Skin Care", description: "Facials, clean-ups, anti-aging and pigmentation care", image: skinImage, to: "/services/skin", price: "$55" },
-  { title: "Makeup", description: "Bridal, party, and special occasion makeup artistry", image: makeupImage, to: "/services/makeup", price: "$75" },
-  { title: "Nail Services", description: "Manicure, pedicure, gel nails and nail art", image: nailImage, to: "/services/nails", price: "$30" },
-  { title: "Bridal Packages", description: "Complete bridal beauty packages for your special day", image: bridalImage, to: "/services/bridal", price: "$299" },
+  { title: "Hair Services", description: "From cuts & styling to coloring and keratin treatments", image: hairImage, to: "/services/hair", price: "₹3,500" },
+  { title: "Skin Care", description: "Facials, clean-ups, anti-aging and pigmentation care", image: skinImage, to: "/services/skin", price: "₹4,000" },
+  { title: "Makeup", description: "Bridal, party, and special occasion makeup artistry", image: makeupImage, to: "/services/makeup", price: "₹6,000" },
+  { title: "Nail Services", description: "Manicure, pedicure, gel nails and nail art", image: nailImage, to: "/services/nails", price: "₹2,500" },
+  { title: "Bridal Packages", description: "Complete bridal beauty packages for your special day", image: bridalImage, to: "/services/bridal", price: "₹25,000" },
 ];
 
 const testimonials = [

@@ -35,7 +35,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-sm">Address</p>
-                  <p className="text-sm text-muted-foreground">123 Beauty Lane, Suite 100, New York, NY 10001</p>
+                  <p className="text-sm text-muted-foreground">123 MG Road, Bandra West, Mumbai, Maharashtra 400050</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-sm">Phone</p>
-                  <a href="tel:+1234567890" className="text-sm text-muted-foreground hover:text-primary transition-colors">+1 234 567 890</a>
+                  <a href="tel:+919876543210" className="text-sm text-muted-foreground hover:text-primary transition-colors">+91 98765 43210</a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -54,7 +54,7 @@ const Contact = () => {
                 <div>
                   <p className="font-medium text-sm">WhatsApp</p>
                   <a
-                    href={`https://wa.me/1234567890?text=${whatsappMessage}`}
+                    href={`https://wa.me/919876543210?text=${whatsappMessage}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-muted-foreground hover:text-primary transition-colors"
@@ -69,7 +69,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-sm">Email</p>
-                  <a href="mailto:hello@glowandgrace.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">hello@glowandgrace.com</a>
+                  <a href="mailto:hello@glowandgrace.in" className="text-sm text-muted-foreground hover:text-primary transition-colors">hello@glowandgrace.in</a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -78,8 +78,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-sm">Business Hours</p>
-                  <p className="text-sm text-muted-foreground">Mon – Sat: 9:00 AM – 8:00 PM</p>
-                  <p className="text-sm text-muted-foreground">Sunday: 10:00 AM – 6:00 PM</p>
+                  <p className="text-sm text-muted-foreground">Mon – Sat: 10:00 AM – 8:00 PM</p>
+                  <p className="text-sm text-muted-foreground">Sunday: 11:00 AM – 7:00 PM</p>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ const Contact = () => {
             {/* Map embed */}
             <div className="mt-8 rounded-lg overflow-hidden elegant-shadow">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215707164898!2d-73.98513458459377!3d40.748817379327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU1LjciTiA3M8KwNTknMDIuOSJX!5e0!3m2!1sen!2sus!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5!2d72.8296!3d19.0760!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x2b5a4c1f8d3c4e0d!2zMTLCsDA0JzMzLjYiTiA3MsKwNDknNDYuNiJF!5e0!3m2!1sen!2sin!4v1234567890"
                 width="100%"
                 height="250"
                 style={{ border: 0 }}
@@ -113,7 +113,7 @@ const Contact = () => {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="c-phone">Phone</Label>
-                <Input id="c-phone" type="tel" placeholder="+1 234 567 890" maxLength={20} />
+                <Input id="c-phone" type="tel" placeholder="+91 98765 43210" maxLength={20} />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="c-message">Message *</Label>
